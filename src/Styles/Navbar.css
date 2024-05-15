@@ -1,0 +1,17 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+.sections-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 20px;
+    /* color: rgb(44,95,160); */
+}
+
+

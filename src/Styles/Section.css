@@ -1,0 +1,164 @@
+.consultants_image{
+    height: 80px;
+    /* width: 50px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.consultant-cont{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    /* justify-content: space-evenly; */
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+.consultants_profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Rubik", sans-serif;
+    background-color: white;
+    width: fit-content;
+    padding: 17px 13px;
+    border-radius: 10px;
+    /* align-items: center; */
+}
+.conultants{
+    display: grid;
+    align-items: center;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 30px;
+}
+.appointement{
+        display: flex;
+        align-items: center;
+        border: 0.5px solid rgba(126, 126, 126, 0.301);
+        padding: 10px 30px;
+        border-radius: 5px;
+        background-image: linear-gradient(to right, rgb(55, 79, 177), rgb(14, 67, 151));
+        color: white;
+        cursor: pointer;
+        /* width: 170px; */
+    text-align: center;
+
+}
+.profile{
+    display: flex;
+    align-items: center;
+    padding: 10px 30px;
+    gap: 10px;
+    border-radius: 5px;
+    /* border: 0.5px solid linear-gradient(to right, rgb(55, 79, 177), rgb(14, 67, 151)); */
+    color: white;
+    cursor: pointer;
+    /* width: 170px; */
+    background: none;
+    color: rgb(55, 79, 177);
+    border: 1px solid rgb(55, 79, 177);
+    text-align: center;
+
+}
+.book_appointment_btn{
+    display: flex;
+    gap: 20px;
+    font-size: 0.8rem;
+}
+.section_container h2{
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+
+}
+.section_container{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.specialty{
+    color: rgba(126, 126, 126, 0.712);
+    font-size: 12px;
+    margin-bottom: -10px;
+}
+.time{
+    font-size: 12px;
+}
+.rating{
+    color: yellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* How it works */
+.consultants{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.find_consultant{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Rubik", sans-serif;
+    width: 20vw;
+}
+.steps_icons{
+    font-size: 100px;
+    font-weight: lighter;
+    color: rgba(97, 97, 97, 0.705);
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(126, 126, 126, 0.301);
+    color: rgb(55, 79, 177);
+    width: 30px;
+    height: 30px;
+    font-weight: 700;
+    border-radius: 50%;
+    /* margin-bottom: -10px; */
+
+}
+.step{
+    /* margin-bottom: -10px; */
+}
+.description{
+    font-size: 13px;
+}
